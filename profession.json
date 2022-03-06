@@ -1,0 +1,45 @@
+{
+    "type": "profession",
+    "id": "stalker",
+    "name": "S.T.A.L.K.E.R.",
+    "description": "Scavenger, Trespasser, Adventurer, Loner, Killer, Explorer, Robber",
+    "points": 5,
+    "skills": [ 
+        { "level": 2, "name": "survival" }, 
+        { "level": 2, "name": "gun" }, 
+        { "level": 1, "name": "firstaid" },
+        { "level": 1, "name": "fabrication" },
+        { "level": 1, "name": "pistol" },
+        { "level": 1, "name": "melee" }
+    ],
+
+    "items": {
+        "both": {
+            "items": [
+                "pants_army",
+                "hoodie",
+                "kevlar",
+                "rucksack",
+                "dump_pouch",
+                "socks",
+                "boots_combat",
+                "gloves_tactical",
+                "mask_gas",
+                "vodka",
+                "sleeping_bag",
+                "wristwatch",
+                "wrapped_rad_badge"
+            ],
+
+            "entries": [
+                { "item": "knife_combat", "container-item": "sheath" },
+                { "item": "makarov", "ammo-item": "9x18mm", "charges": 8, "container-item": "holster" },
+                { "item": "legpouch_large", "contents-group": "stalker_mags_makarov" },
+                { "item": "bread", "container-item": "wrapper" }
+            ] 
+        },
+
+        "male": [ "boxer_shorts" ],
+        "female": [ "boy_shorts", "sports_bra" ]
+    }
+}

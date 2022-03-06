@@ -1,0 +1,20 @@
+[
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "stalker_mags_cz75",
+        "entries": [
+            { "item": "cz75mag_12rd", "ammo-item": "9mm", "charges": 12 },
+            { "item": "cz75mag_12rd", "ammo-item": "9mm", "charges": 12 }
+        ]
+    },
+    {
+        "type": "item_group",
+        "subtype": "collection",
+        "id": "stalker_mags_makarov",
+        "entries": [
+            { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 },
+            { "item": "makarovmag", "ammo-item": "9x18mm", "charges": 8 }
+        ]
+    }
+]

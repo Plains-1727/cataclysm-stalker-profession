@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "stalker_prof",
+    "name": "Stalker Professions",
+    "authors": [ "Jan" ],
+    "description": "Stalker themed professions",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
+
